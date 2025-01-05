@@ -14,7 +14,7 @@ BigInt  = 9999999999999999999999999999
 let userState = null 
 let temperature
 
-// Int
+// number
 // String
 // Boolean
 // BigInt for large number storing
