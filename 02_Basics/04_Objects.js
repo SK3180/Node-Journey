@@ -69,6 +69,38 @@ console.log(tinderUser.hasOwnProperty('isloggedIn')) // for checking if the requ
 
 
 
+const course = {
+    courseName:"Video Editing Expert",
+    courseInstructor:"Sk",
+    price:"6900"
+}
+
+// course.courseInstructor
+
+const {courseName:Name} = course // Object Destructure
+
+// console.log(courseName)
+console.log(Name)
+
+// const navbar = ({company}) => {     // for react onject destructure
+    
+// } 
+// navbar(company = "Sk")
+
+ //Json response (api)
+
+// {                           
+//     "name":"Sk",
+//     "courseName": "Android Dev",
+//     " price": "Free"
+// }
+
+// [   
+//     {},
+//     {},
+//     {}
+// ]
+
 
 
 
