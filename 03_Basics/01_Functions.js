@@ -39,9 +39,37 @@ function loginUserMessage(userName){ // we can also predefine value to userName
 const test =  loginUserMessage("Sk")
 const test2 =  loginUserMessage()
 
-console.log(test)
+// console.log(test)
 
 
+function calculateCartPrice(val1,val2,...price1){   // ... is rest operator also known as spread operator, it packs all the value in the bundle and show to store
+    return price1 
+} 
 
+// console.log(calculateCartPrice(200,400,400,200))
+
+const user = {
+    username: "Sk",
+    prices:299
+}
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.username} and price is ${anyObject.prices}`)
+}
+
+//handleObject(user)
+handleObject({
+    username: "Sam",
+    prices:699
+})
+
+const myNewArray = [ 200,100,199,203]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+console.log(returnSecondValue(myNewArray))
+
+console.log(returnSecondValue([200,397,201,348]))
 
 
