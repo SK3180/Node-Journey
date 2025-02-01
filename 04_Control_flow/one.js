@@ -26,6 +26,25 @@ if(2 === "2"){
 // !==  this check now equals also datatype
 
 
+const balance = 1000
+
+// if(balance > 500) console.log("Test") // implesit scope (bad code)
+
+// if(balance > 500){
+//     console.log("greater then 500")
+// } else if(balance<500){
+//     console.log("Balance is less then 500")
+// }
+
+const UserLoggedIn = true
+const debitCard = true
+
+if(UserLoggedIn && debitCard){
+    console.log("Allow to buy")
+}
+
+
+
 
 
 
